@@ -230,3 +230,7 @@ persist.log.tag.mtkpower@impl=S
 
 # Gboard Rounded
 ro.com.google.ime.corner_key_r=35
+
+# Integrate prop from fix-lag module
+debug.sf.latch_unsignaled=1
+sys.use_fifo_ui=1
