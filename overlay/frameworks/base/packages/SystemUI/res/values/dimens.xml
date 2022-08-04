@@ -21,8 +21,4 @@
 
     <!-- the padding on the end of the statusbar -->
     <dimen name="status_bar_padding_end">8dp</dimen>
-    
-    <!-- due to bugs (?) let's add top padding on statusbar -->
-    <!-- potentially fixed in August ASB/SPL (?) -->
-    <dimen name="status_bar_padding_top">6dp</dimen>
 </resources>
