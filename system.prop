@@ -83,6 +83,7 @@ debug.sf.early_app_phase_offset_ns=500000
 debug.sf.early_gl_phase_offset_ns=3000000
 debug.sf.early_gl_app_phase_offset_ns=15000000
 debug.sf.early_phase_offset_ns=500000
+debug.sf.latch_unsignaled=1
 
 # Radio
 persist.internalAntenna.enable=true
@@ -230,7 +231,3 @@ persist.log.tag.mtkpower@impl=S
 
 # Gboard Rounded
 ro.com.google.ime.corner_key_r=35
-
-# Integrate prop from fix-lag module
-debug.sf.latch_unsignaled=1
-sys.use_fifo_ui=1
