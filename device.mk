@@ -45,8 +45,8 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy_configuration.xml
 
-PRODUCT_PACKAGES += \
-    audio.a2dp.default
+#PRODUCT_PACKAGES += \
+#    audio.a2dp.default
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
