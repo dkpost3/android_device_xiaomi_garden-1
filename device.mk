@@ -111,6 +111,14 @@ PRODUCT_PACKAGES += \
     libsuspend \
     android.hardware.health@2.0
 
+# IMS
+PRODUCT_PACKAGES += \
+    ImsServiceBase
+
+PRODUCT_PACKAGES += \
+    ImsInit
+
+# APN
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
 
