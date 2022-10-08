@@ -117,7 +117,7 @@ debug.stagefright.ccodec=0
 
 # Blurs
 ro.surface_flinger.supports_background_blur=1
-persist.sys.sf.disable_blurs=1
+persist.sys.sf.disable_blurs=0
 ro.sf.blurs_are_expensive=1
 
 # Memory Management
@@ -164,6 +164,7 @@ ro.config.hw_fast_dormancy=1
 ro.mot.eri.losalert.delay=1000
 debug.kill_allocating_task=0
 persist.sys.use_dithering=1
+debug.hwui.renderer=opengl
 
 # GPU Perf
 force_hw_ui=true
@@ -207,11 +208,6 @@ MultitouchSettleInterval=1ms
 MultitouchMinDistance=1px 
 TapInterval=1ms 
 TapSlop=1px
-
-# Blurs
-ro.surface_flinger.supports_background_blur=1
-ro.sf.blurs_are_expensive=1
-persist.sys.sf.disable_blurs=1
 
 # System
 PRODUCT_PROPERTY_OVERRIDES += \
