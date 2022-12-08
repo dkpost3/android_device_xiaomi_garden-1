@@ -27,13 +27,13 @@ TARGET_SUPPORTS_QUICK_TAP := true
 USE_PIXEL_CHARGING := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 IS_PHONE := true
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common_full_phone.mk)
 
 # Inherit from garden device makefile
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := nad_garden
+PRODUCT_NAME := arrow_garden
 PRODUCT_DEVICE := garden
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := xiaomi
